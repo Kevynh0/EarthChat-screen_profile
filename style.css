@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    background-color: #1E1E1E;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: tomato; /*teste*/
+    width: 100vw;
+    height: 10vh;
+}
+
+.left{
+    gap: 100px;
+    background-color: aqua;
+}
+.right{
+    max-width: 50px;
+    width: 100px;
+    background-color: aquamarine;
+}
+
+
+
+    /* margin: 10px;
+    display: flex;
+    align-items: center;
+    max-width: 100%; -- Nunca será maior que o contêiner --
+    height: auto; -- Mantém a proporção -- */
+
+
+
+/* footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #424242;
+    width: 100vw;
+    height: 10vh;
+}
+footer img{
+    width: 8vh;
+} */
