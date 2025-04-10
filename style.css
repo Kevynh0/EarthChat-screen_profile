@@ -18,18 +18,23 @@ header{
     justify-content: space-between;
     align-items: center;
     background-color: tomato; /*teste*/
+    background-color: #3E3E3E; /*teste*/
     width: 100vw;
     height: 10vh;
 }
 
 .left{
-    gap: 100px;
-    background-color: aqua;
+    display: flex;
+    gap: 5vh;
+    margin: 5vh;
+    /* background-color: aqua; */
+    
 }
 .right{
-    max-width: 50px;
-    width: 100px;
-    background-color: aquamarine;
+    /* max-width: 100px; */
+    /* width: 150px; */
+    margin: 7vh;
+    /* background-color: aquamarine; */
 }
 
 
