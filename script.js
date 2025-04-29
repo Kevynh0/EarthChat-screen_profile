@@ -7,7 +7,7 @@ async function profile (){
     const perfilImg = document.getElementById('perfilImg')
 
     // Nessa var, é necessário integrar com o id do user logado
-    let idUsuario = 1
+    let idUsuario = 9
 
     // EndPoint que lista usuários pelo Id (perfil)
     const dataUser = await fetch(`https://back-spider.vercel.app/user/pesquisarUser/${idUsuario}`) 
